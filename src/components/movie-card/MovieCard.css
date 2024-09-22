@@ -1,0 +1,86 @@
+/* MovieCard.css */
+
+.movie-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card-content {
+    padding: 16px;
+  }
+  
+  .movie-card-title {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .movie-card-year {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .movie-card-genre {
+    font-size: 0.85rem;
+    color: #007bff;
+    margin-bottom: 12px;
+  }
+  
+  .movie-card-description {
+    font-size: 0.85rem;
+    color: #444;
+    margin-bottom: 12px;
+  }
+  
+  .movie-card-rating {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 12px;
+  }
+  
+  .movie-card-trailer-link {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .movie-card-trailer-delete {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .movie-card-trailer-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .movie-card-trailer-delete:hover {
+    background-color: lightcoral;
+    cursor: pointer;
+  }
